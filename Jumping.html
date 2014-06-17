@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Simple game with HTML5 Canvas</title>
+    <style>
+        @font-face {
+            font-family: 'Fjalla One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Fjalla One'), local('FjallaOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/fjallaone/v1/rxxXUYj4oZ6Q5oDJFtEd6hsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Carter One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Carter One'), local('CarterOne'), url(http://themes.googleusercontent.com/static/fonts/carterone/v5/VjW2qt1pkqVtO22ObxgEBRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+        }
+
+
+        @font-face {
+            font-family: 'VT323';
+            font-style: normal;
+            font-weight: 400;
+            src: local('VT323'), local('VT323-Regular'), url(http://themes.googleusercontent.com/static/fonts/vt323/v4/LfMzj2MWAZU6qzlnp1MNbg.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Changa One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Changa One'), local('ChangaOne'), url(http://themes.googleusercontent.com/static/fonts/changaone/v6/QmTOgNNWM9ly3K3B2X29HBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Russo One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Russo One'), local('RussoOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/russoone/v1/RO6e96EC9m6OLO0tr7J3zz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Slackey';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Slackey'), url(http://themes.googleusercontent.com/static/fonts/slackey/v3/5wB_ThMKcqfCDp4KQYE4yg.woff) format('woff');
+        }
+
+
+
+        body {
+            margin:0;
+            padding:0;
+        }
+
+        canvas{
+            outline:0;
+            border:1px solid #000;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body id="bodyTag">
+
+<div id="container">
+
+<canvas id='c'></canvas>
+
+</div>
+
+<script src="Game.js"></script>
+
+</body>
+</html>
